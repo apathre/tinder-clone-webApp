@@ -4,6 +4,7 @@ import './Chat.css';
 import { Link } from 'react-router-dom';
 
 
+
 function Chat({name,message,timestamp,profilePic}) {
     return (
         <div>

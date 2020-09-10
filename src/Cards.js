@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import TinderCards from 'react-tinder-card'
 import './Cards.css';
 
+
 function Cards() {
     const [people, setPeople]=useState([
         {

@@ -2,6 +2,7 @@
     padding: 20px;
     align-items: center;
 }
+
 .chatScreen_messages{
     display: flex;
     padding: 10px;

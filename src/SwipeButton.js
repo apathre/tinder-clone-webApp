@@ -6,6 +6,7 @@ import FlashOnIcon from '@material-ui/icons/FlashOn';
 import { IconButton } from '@material-ui/core';
 import './SwipeButton.css';
 
+
 function SwipeButton() {
     return (
         <div className="swipeButtons">
