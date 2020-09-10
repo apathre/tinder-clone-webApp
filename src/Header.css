@@ -1,0 +1,12 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+    padding:10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.tinder_logo{
+    height:40px;
+    object-fit: contain;
+}
