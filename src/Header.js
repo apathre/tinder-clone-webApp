@@ -30,9 +30,10 @@ function Header({backButton}) {
             :(<Menu
                   isOpen={menuOpen}
                   onStateChange={(state)=>handleStateChange(state)}>
-                    <a onClick={()=>closeMenu()} href="/" >Home</a>
-                    <a onClick={()=>closeMenu()} href="/chat">Chat</a>
-                    <a onClick={()=>closeMenu()} >Contact</a>
+                    <a className="menuItem" onClick={()=>closeMenu()} href="/" >Home</a>
+                    <a className="menuItem" onClick={()=>closeMenu()} href="/profile" >Profile</a>
+                    <a className="menuItem" onClick={()=>closeMenu()} href="/chat">Chat</a>
+                    <a className="menuItem" onClick={()=>closeMenu()} href="/login">Login</a>
                 </Menu>
             )}
             <Link to="/">

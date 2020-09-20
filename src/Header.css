@@ -12,6 +12,13 @@
     object-fit: contain;
 }
 
+.menuItem{
+  margin:10px;
+}
+.menuItem:hover{
+  color:lightcoral;
+}
+
 .bm-burger-button {
     position: fixed;
     width: 36px;

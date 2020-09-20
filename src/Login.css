@@ -1,0 +1,35 @@
+.login{
+    margin:5%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.login > input{
+    margin:10px;
+    height:30px;
+    width:97%;
+}
+.login > input:focus{
+    border:3px solid lightcoral;
+}
+
+.login > h2{
+   margin:10px;
+}
+.login_button{
+   background-color:lightgrey;
+   width:100%;
+   height:40px;
+   border-radius:20px;
+   font-weight: 600;
+   margin:20px;
+}
+.login_button:hover{
+    background-color:lightcoral;
+    transition:0.1s;
+}
